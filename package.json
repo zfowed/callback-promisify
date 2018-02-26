@@ -1,10 +1,14 @@
 {
   "name": "callback-promisify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "异步回调函数转换为AsyncFunction",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zfowed/callback-promisify.git"
   },
   "author": "zfowed",
   "license": "ISC"
