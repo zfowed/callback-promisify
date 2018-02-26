@@ -1,6 +1,6 @@
 {
   "name": "callback-to-promisify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "异步回调函数转换为AsyncFunction",
   "main": "index.js",
   "scripts": {

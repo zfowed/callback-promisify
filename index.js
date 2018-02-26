@@ -14,10 +14,10 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
         typeof define === 'function' && define.amd ? define(factory) :
-        (global.callbackPromisify = factory());
+        (global.callbackToPromisify = factory());
 })(this, function () {
 
-    var callbackPromisify = function callbackPromisify(func, isFirstError, argsMark, self) {
+    var callbackToPromisify = function (func, isFirstError, argsMark, self) {
 
         isFirstError = isFirstError !== undefined ? isFirstError : true;
         argsMark = argsMark !== undefined ? argsMark : 0;
@@ -75,6 +75,6 @@
     };
 
 
-    return callbackPromisify;
+    return callbackToPromisify;
 
 });
