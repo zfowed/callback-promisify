@@ -1,0 +1,11 @@
+{
+  "name": "callback-promisify",
+  "version": "1.0.0",
+  "description": "异步回调函数转换为AsyncFunction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zfowed",
+  "license": "ISC"
+}
